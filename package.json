@@ -1,0 +1,14 @@
+{
+  "name": "fiat-ii",
+  "license": "Unlicense",
+  "version": "0.0.0",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "eth-sig-util": "^3.0.1",
+    "ethereumjs-util": "^7.1.5"
+  },
+  "scripts": {
+    "clean": "rm -rf cache cache_hardhat artifacts .openzeppelin deployments bindings",
+    "generate-ts-bindings": "node ./scripts/generate-ts-bindings.js"
+  }
+}

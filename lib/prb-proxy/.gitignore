@@ -1,0 +1,15 @@
+# directories
+artifacts
+broadcast
+cache
+node_modules
+optimized-out
+out
+
+# files
+*.env
+*.log
+.DS_Store
+.pnp.*
+lcov.info
+yarn.lock

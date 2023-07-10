@@ -1,0 +1,13 @@
+setPermission.t.sol
+├── when the caller is not the owner
+│  └── it should revert
+└── when the caller is the owner
+   ├── when the permission has not been set
+   │  └── it should set the permission
+   └── when the permission has been set
+      ├── when resetting the permission
+      │  ├── it should reset the permission
+      │  └── it should emit a {SetPermission} event
+      └── when unsetting the permission
+         ├── it should unset the permission
+         └── it should emit a {SetPermission} event

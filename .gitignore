@@ -1,0 +1,13 @@
+# Node
+node_modules
+yarn.lock
+
+# Foundry
+cache
+out
+
+# Artifacts
+bindings
+
+# Secrets
+.env
